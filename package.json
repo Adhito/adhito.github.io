@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^1.9.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.1",
@@ -28,5 +29,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://adhito.github.io",
+
+  "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+   }
 }
