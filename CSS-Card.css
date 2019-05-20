@@ -1,0 +1,29 @@
+.cardDesc {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+.cardDesc h2{
+  padding-top: 10%;
+}
+
+.cardH2Font{
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.cardMallLogo{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  height: 60%;
+  width: 60%;
+
+}
+
+
