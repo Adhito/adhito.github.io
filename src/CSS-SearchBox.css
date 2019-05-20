@@ -1,0 +1,13 @@
+searchBox{
+  width: 100%;
+  height: 20%;
+}
+
+.searchBoxInput{
+  width: 90%;
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/*  pa3 ba b--green bg-lightest-blue */
