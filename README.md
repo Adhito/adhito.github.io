@@ -39,7 +39,7 @@
 https://github.com/Adhito/Project_Web_Multimedia_IceCreamGelato/blob/master/powerPoint/PPT%20IceCream%20Gelato.pptx</li>
 	<li> Text - Page paragraph and description</li>
   	<li> Image - Ice cream pictures</li>
-	<li> Sound - Audio are from youtube video when user chose to click it, We included a background music in audio/Ukulele.mp3 however we chose not to play the background music since it may disturb the user experience</li>
+	<li> Sound - Audio are from youtube video when user chose to click it, and in additio we also added transition sound when transitioning to other page </li>
   	<li> Animation - Picture will animate when hovered </li>
 	<li> Hyperlink - On about us page or footer when clicking social media icon page will be redirected </li>
 </ul>
