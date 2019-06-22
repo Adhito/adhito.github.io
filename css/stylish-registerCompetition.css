@@ -1,0 +1,308 @@
+/* Untuk Page HTML-Register COMPETITION CSS  */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,900);
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header, .footer {
+  background: #2e2e2e;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.header a, .footer a {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .header, .footer {
+    padding: 100px 30px;
+  }
+}
+.header h1, .footer h1 {
+  font-size: 4em;
+  font-weight: 300;
+}
+.header i.fa, .footer i.fa {
+  font-size: 4em;
+}
+.header .bounce, .footer .bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.header .animated, .footer .animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.section {
+  width: 100%;
+  position: relative;
+}
+.section .left, .section .middle, .section .right {
+  width: 100%;
+  display: block;
+  color: #fff;
+  box-sizing: border-box;
+  left: 0;
+  padding: 30px;
+  text-align: center;
+  overflow: hidden;
+  -moz-transition: 0.3s ease-in-out all;
+  -o-transition: 0.3s ease-in-out all;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+@media (min-width: 480px) {
+  .section .left .content, .section .middle .content, .section .right .content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 480px) {
+  .section .left, .section .middle, .section .right {
+    width: 50%;
+    font-size: 0.9em;
+    padding: 10px;
+    left: 0;
+    float: left;
+    position: absolute;
+  }
+}
+@media (min-width: 768px) {
+  .section .left, .section .middle, .section .right {
+    width: 33.33333%;
+    left: 33.33%;
+    padding: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .section .left, .section .middle, .section .right {
+    padding: 30px;
+    font-size: 1em;
+  }
+}
+.section.animate .left {
+  left: 0;
+}
+@media (min-width: 480px) {
+  .section.animate .left {
+    left: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .section.animate .left {
+    left: 0;
+  }
+}
+.section.animate .right {
+  left: 0;
+}
+@media (min-width: 480px) {
+  .section.animate .right {
+    left: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .section.animate .right {
+    left: 66.66%;
+  }
+}
+.section .title {
+  background: tomato;
+}
+.section .title h2 {
+  margin-top: 0;
+}
+.section .title p {
+  line-height: 1.55em;
+  margin-bottom: 0.75em;
+}
+.section .title .btn-primary {
+  color: #fff;
+  background: #ff3814;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+  -moz-transition: 0.3s ease-in-out all;
+  -o-transition: 0.3s ease-in-out all;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+.section .title .btn-primary:hover {
+  background: #fa2600;
+}
+.section .tiles {
+  padding: 0;
+  background: #fff;
+  clear: both;
+  display: none;
+  float: none;
+}
+.section .tiles img {
+  width: 50%;
+  float: left;
+  height: auto;
+  opacity: 0.7;
+  -moz-transition: 0.3s ease-in-out all;
+  -o-transition: 0.3s ease-in-out all;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.section .tiles img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}
+@media (min-width: 768px) {
+  .section .tiles {
+    display: block;
+  }
+}
+.section .middle {
+  background: slategray;
+  z-index: 2;
+  padding: 0;
+}
+.section .middle img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+  }
+  hr.divider-red {
+    max-width: 20.25rem;
+    border-width: 0.2rem;
+    border-color: #e84754;
+  }
+  hr.divider-yellow {
+    max-width: 20.25rem;
+    border-width: 0.2rem;
+    border-color: #FAE80B;
+  }
+  hr.divider-purple {
+    max-width: 20.25rem;
+    border-width: 0.2rem;
+    border-color: #9265ab;
+  }
+  hr.divider-bluedark {
+    max-width: 20.25rem;
+    border-width: 0.2rem;
+    border-color: #14588B;
+  }
+  hr.divider-bluelight {
+    max-width: 20.25rem;
+    border-width: 0.2rem;
+    border-color: #6FBADA;
+  }
+  
+  .page-section {
+    padding: 8rem 0;
+  }
+  
+  .bg-primary {
+    background-color: #f4623a !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .bsscLifeFestLanding{
+    font-family: 'Lobster', cursive;
+  }
+  
+  
+  
+  img{ max-width:100%;}
+  
+  .gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+  .gallery_box{ padding:0;display: flow-root;}
+  
+  .gallery_box li:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  .gallery_box li img{-webkit-transition: transform 0.5s ease;
+      -o-transition: transform 0.5s ease;
+      transition: transform 0.5s ease;}
+  .gallery_box li:nth-child(even) {
+      height: 304px;
+  }
+  .gallery_box li:nth-child(odd) {
+      height: 438px; 
+  }
+  .gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+  .gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+  .gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+  .gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+  .gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+  
+  
+  
+  
+  
+  
+  
+  
