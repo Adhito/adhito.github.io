@@ -41,3 +41,70 @@
 
 
  <!------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+
+      <!-- Contents -->
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Contents</a>
+        
+      </li>
+
+      <!-- Home -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+
+      <!-- About us -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+
+      <!-- Trailer -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#trailer">Trailer</a>
+      </li>
+
+      <!-- EventCompetition -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#eventCompetition">Competition</a>
+      </li>
+      
+      <!-- EventWorkshop -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#eventWorkshop">Workshop</a>
+      </li>         
+     
+      <!-- EventTalkshowGuestStar -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#EventTalkshowGuestStar"> Talkshow & Guestar</a>
+      </li>  
+
+      <!-- Schedule -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#Schedule">Schedule</a>
+      </li>
+
+      <!-- Sticker -->
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#sticker">Line Sticker</a>
+    </li>            
+      
+      <!-- Gallery -->
+      <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#gallery">Gallery</a>
+      </li>
+
+
+
+
+    </ul>
+  </nav>
