@@ -212,7 +212,7 @@
  /* ------------------------------------------------------------------------------------ */
  
  .btn-xl {
-   padding: 1.25rem 2.5rem;
+   padding: 2.25rem 3.5rem;
  }
  
  .content-section {
@@ -295,7 +295,7 @@
    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Festival-0003.png");
    background-position: center center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100%;
  }
  
  .masthead-guest {
@@ -624,8 +624,8 @@
    border-color: #f8f9fa;
  }
  .btn-xl {
-   padding: 1.25rem 2.25rem;
-   font-size: 0.85rem;
+   padding: 2rem 3.5rem;
+   font-size: 1.1rem;
    font-weight: 700;
    text-transform: uppercase;
    border: none;
@@ -721,6 +721,23 @@
  
  
  
+.border_schedule{
+  border-style: solid;
+  border-width: 10px 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;  
+}
  
- 
- 
+.indent {
+  text-indent: 50px;
+}
+
+.hrcolored {
+  border: 0;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  background-color: #6FBADA;
+  height: 10px;
+}
