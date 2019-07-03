@@ -58,6 +58,7 @@ body {
   -o-transition: 0.3s ease-in-out all;
   -webkit-transition: 0.3s ease-in-out all;
   transition: 0.3s ease-in-out all;
+  
 }
 @media (min-width: 480px) {
   .section .left .content, .section .middle .content, .section .right .content {
