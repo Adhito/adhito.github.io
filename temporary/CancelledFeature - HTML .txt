@@ -108,3 +108,65 @@
 
     </ul>
   </nav>
+
+
+
+
+
+
+ <!------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+Tenant
+
+
+      <!-- Baris ketiga adalah media vendor (?) -->
+      <div class="content-section-heading text-center">
+        <h3 class="mediaTitle"> Tenant </h3>
+      </div>
+
+      <div class="mediaImg row gutters">
+
+        <!-- Picture 1 -->
+        <div class="col-lg-2">
+          <a class="gallery-item ">
+            <img class="img-fluid" src="img/vendor-bakmigm.png" alt="">
+          </a>
+        </div>
+
+        <!-- Picture 2 -->
+        <div class="col-lg-2">
+          <a class="gallery-item" >
+            <img class="img-fluid" src="img/vendor-donerkebab.png" alt="">
+          </a>
+        </div>
+
+        <!-- Picture 3 -->
+        <div class="col-lg-2">
+          <a class="gallery-item" >
+            <img class="img-fluid" src="img/vendor-dutch-kitchen.png" alt="">
+          </a>
+        </div>
+
+        <!-- Picture 4 -->
+        <div class="col-lg-2">
+          <a class="gallery-item ">
+            <img class="img-fluid" src="img/vendor-hiroji.png" alt="">
+          </a>
+        </div>
+
+        <!-- Picture 5 -->
+        <div class="col-lg-2">
+          <a class="gallery-item" >
+            <img class="img-fluid" src="img/vendor-shilin.png" alt="">
+          </a>
+        </div>
+        
+      </div>
+
